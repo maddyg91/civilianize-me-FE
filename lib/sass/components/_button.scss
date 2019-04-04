@@ -1,0 +1,12 @@
+.main-section {
+    .btn {
+        // margin: 0 auto;
+        height: 4rem;
+        padding-bottom: .5rem;
+        /*          x  y  blur   shadowcolor */
+        opacity: 0.8;
+        box-shadow: 0 5px 10px rgba(0,0,0,1);
+        border-radius: 5%;
+        outline: none;
+    }
+}

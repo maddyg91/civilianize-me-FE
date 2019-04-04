@@ -1,0 +1,9 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-row-gap: 5rem;
+    grid-column-gap: 10rem;
+    justify-content: space-around;
+    padding: 10rem;
+    
+}
