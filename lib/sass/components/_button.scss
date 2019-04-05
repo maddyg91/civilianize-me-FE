@@ -1,12 +1,16 @@
 .main-section {
     .btn {
-        // margin: 0 auto;
-        height: 4rem;
+        height: 5rem;
         padding-bottom: .5rem;
-        /*          x  y  blur   shadowcolor */
         opacity: 0.8;
+        /*          x  y  blur   shadowcolor */
         box-shadow: 0 5px 10px rgba(0,0,0,1);
         border-radius: 5%;
         outline: none;
+        background-image: linear-gradient(
+            to left top,
+            rgba($color-primary-light, 0.5),
+            rgba($color-primary-dark, 0.7)
+        )
     }
 }
