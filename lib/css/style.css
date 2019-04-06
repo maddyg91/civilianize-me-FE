@@ -20,6 +20,15 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif; }
 
+.btn {
+  color: white;
+  font-weight: 600; }
+  .btn li {
+    font-size: 1rem; }
+
+.dashboard-icon {
+  font-size: 36px; }
+
 .main-section .btn {
   height: 5rem;
   padding-bottom: .5rem;
@@ -29,6 +38,12 @@ body {
   border-radius: 5%;
   outline: none;
   background-image: linear-gradient(to left top, rgba(114, 119, 142, 0.5), rgba(14, 26, 47, 0.7)); }
+  .main-section .btn li {
+    list-style-type: none; }
+
+.dashboard-icon {
+  font-size: 36px;
+  padding-bottom: 0.1rem; }
 
 .main-section {
   display: grid;

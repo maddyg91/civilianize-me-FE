@@ -11,6 +11,10 @@
             to left top,
             rgba($color-primary-light, 0.5),
             rgba($color-primary-dark, 0.7)
-        )
+        );
+        
+        li {
+            list-style-type: none;
+        }
     }
 }
