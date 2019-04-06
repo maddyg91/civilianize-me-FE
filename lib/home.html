@@ -23,16 +23,12 @@
         Home
         <!-- <img src="img/logo.png" alt="Logo"> -->
     </header>
-    <div class="main-section">
+    <div class="main-section" id="main-section">
         <button class="btn btn--crisis">
-            <li><ion-icon name="warning" class="dashboard-icon"></ion-icon></li>
-            <li>Crisis</li>  
-            <!-- div for crisis popup 
-            
-            "Urgent situation? Click here."
-                Popup: vcl phone number, text number (hardcoded), chatroom link, and 911 message
-                    911 message: "If your crisis is a medical or psychiatric emergency, calling 911 is your best option."
-            -->
+            <a href="#popup" class="btn btn--crisis">
+                <li><ion-icon name="warning" class="dashboard-icon"></ion-icon></li>
+                <li>Crisis</li> 
+             </a>
         </button>
         <button class="btn btn--employment">
             <li><ion-icon name="briefcase" class="dashboard-icon"></ion-icon></li>  
@@ -67,6 +63,30 @@
             <li>Stress Management</li>
         </button>
     </div>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/ducky.jpeg" alt="soothing photo" class="popup__img">
+                <img src="img/mountain.jpeg" alt="soothing photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#main-section" class="popup__close">&times;</a>
+                <h2 class="heading-secondary">Speak to a crisis professional 24/7. </h2>
+                <h2 class="heading-secondary">Talk to the Veteran's Crisis Line. </h2>
+                <p class="popup__text">
+                    <div class="popup__text-content"> 
+                        <button class="btn btn--crisis-chat">VCL Chatroom</button>
+                        <!-- <iframe class="chatroom" src="https://www.lifeline-va-chat.org/SightMaxAgentInterfaceMobile/PreChatSurvey.aspx?accountID=1&siteID=4&queueID=8" frameborder="0"></iframe> -->
+                    </div>
+                    <div class="popup__text-content">Speak over the phone: (800) 273-8255</div>
+                    <div class="popup__text-content">Text a crisis professional: 838255 </div>
+                    <div class="popup__text-content"><em> If your crisis is a medical or psychiatric emergency, calling 911 is your best option.</em></div>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
