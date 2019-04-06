@@ -1,20 +1,25 @@
-.main-section {
-    .btn {
-        height: 5rem;
-        padding-bottom: .5rem;
-        opacity: 0.8;
-        /*          x  y  blur   shadowcolor */
-        box-shadow: 0 5px 10px rgba(0,0,0,1);
-        border-radius: 5%;
-        outline: none;
-        background-image: linear-gradient(
-            to left top,
-            rgba($color-primary-light, 0.5),
-            rgba($color-primary-dark, 0.7)
-        );
-        
-        li {
-            list-style-type: none;
-        }
+.btn {
+    height: 5rem;
+    padding-bottom: .5rem;
+    opacity: 0.8;
+    /*          x  y  blur   shadowcolor */
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    border-radius: 5%;
+    outline: none;
+    text-decoration: none;
+    background-image: linear-gradient(
+        to left top,
+        rgba($color-primary-light, 0.5),
+        rgba($color-primary-dark, 0.7)
+    );
+    
+    li {
+        list-style-type: none;
+    }
+
+    &--crisis-chat {
+        width: 50%;
+        border-radius: 17%;
+        opacity: 0.4;
     }
 }
