@@ -29,7 +29,10 @@ body {
 .dashboard-icon {
   font-size: 36px; }
 
-.main-section .btn {
+.popup {
+  color: black; }
+
+.btn {
   height: 5rem;
   padding-bottom: .5rem;
   opacity: 0.8;
@@ -37,13 +40,80 @@ body {
   box-shadow: 0 5px 10px black;
   border-radius: 5%;
   outline: none;
+  text-decoration: none;
   background-image: linear-gradient(to left top, rgba(114, 119, 142, 0.5), rgba(14, 26, 47, 0.7)); }
-  .main-section .btn li {
+  .btn li {
     list-style-type: none; }
+  .btn--crisis-chat {
+    width: 50%;
+    border-radius: 17%;
+    opacity: 0.4; }
 
 .dashboard-icon {
   font-size: 36px;
   padding-bottom: 0.1rem; }
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.93);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup__close:link, .popup__close:visited {
+    color: black;
+    position: absolute;
+    top: 1rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.651);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden; }
+  .popup__left {
+    width: 33.33333333%;
+    display: table-cell;
+    vertical-align: middle; }
+  .popup__right {
+    width: 66.66666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .popup__img {
+    display: block;
+    width: 100%; }
+  .popup__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem; }
+    .popup__text-content {
+      padding-bottom: 1rem; }
+      .popup__text-content .btn {
+        font-weight: 800;
+        color: black;
+        opacity: 1;
+        font-size: 1rem;
+        outline: none;
+        border: none; }
+        .popup__text-content .btn:hover {
+          cursor: pointer;
+          transform: translateY(-5px);
+          background-image: linear-gradient(to right bottom, rgba(114, 119, 142, 0.5), rgba(14, 26, 47, 0.7)); }
 
 .main-section {
   display: grid;
