@@ -31,8 +31,10 @@
              </a>
         </button>
         <button class="btn btn--employment">
-            <li><ion-icon name="briefcase" class="dashboard-icon"></ion-icon></li>  
-            <li>Employment</li>
+            <a href="employment.html" class="btn btn--crisis">
+                <li><ion-icon name="briefcase" class="dashboard-icon"></ion-icon></li>  
+                <li>Employment</li>
+            </a>
         </button>
         <button class="btn btn--va-lookup">
             <li><ion-icon name="business" class="dashboard-icon"></ion-icon></li>
@@ -77,9 +79,8 @@
                 <p class="popup__text">
                     <div class="popup__text-content"> 
                         <button class="btn btn--crisis-chat">VCL Chatroom</button>
-                        <!-- <iframe class="chatroom" src="https://www.lifeline-va-chat.org/SightMaxAgentInterfaceMobile/PreChatSurvey.aspx?accountID=1&siteID=4&queueID=8" frameborder="0"></iframe> -->
                     </div>
-                    <div class="popup__text-content">Speak over the phone: (800) 273-8255</div>
+                    <div id="vcl-phone" class="popup__text-content"></div>
                     <div class="popup__text-content">Text a crisis professional: 838255 </div>
                     <div class="popup__text-content"><em> If your crisis is a medical or psychiatric emergency, calling 911 is your best option.</em></div>
                 </p>
@@ -89,6 +90,6 @@
 
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
