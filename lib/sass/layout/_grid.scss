@@ -6,3 +6,12 @@
     justify-content: center;
     padding: 4rem 10rem;
 }
+
+.employment-resources-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row-gap: 5rem;
+    grid-column-gap: 5rem;
+    justify-content: center;
+    padding: 4rem 10rem;
+}
