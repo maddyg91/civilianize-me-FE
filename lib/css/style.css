@@ -71,7 +71,9 @@ body {
 .employment-resource__logo {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
-  height: 150px; }
+  height: 100px;
+  text-align: center;
+  justify-content: center; }
 
 .employment-resource__name {
   text-transform: uppercase;
