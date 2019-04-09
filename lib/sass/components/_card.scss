@@ -1,0 +1,37 @@
+.employment-resource {
+    &__card {
+        background-color: rgb(193, 193, 193);
+        text-align: center;
+        opacity: .8;
+        border-radius: 2%;
+        border: none;
+        filter: saturate(30%);
+
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            filter: saturate(120%);
+        }
+    }
+    
+    &__link {
+        color: black;
+        text-decoration: none;
+        outline: none;
+    }
+
+    &__logo {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        height: 150px;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
+
+    &__description {
+        padding: 1rem;
+    }
+}

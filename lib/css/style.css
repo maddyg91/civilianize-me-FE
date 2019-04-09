@@ -16,6 +16,9 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
+.burger {
+  font-size: 150px; }
+
 body {
   color: white;
   font-family: 'Raleway', sans-serif; }
@@ -48,6 +51,42 @@ body {
     width: 50%;
     border-radius: 17%;
     opacity: 0.4; }
+
+.employment-resource__card {
+  background-color: #c1c1c1;
+  text-align: center;
+  opacity: .8;
+  border-radius: 2%;
+  border: none;
+  filter: saturate(30%); }
+  .employment-resource__card:hover {
+    background-color: white;
+    filter: saturate(120%); }
+
+.employment-resource__link {
+  color: black;
+  text-decoration: none;
+  outline: none; }
+
+.employment-resource__logo {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  height: 150px; }
+
+.employment-resource__name {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 1rem; }
+
+.employment-resource__description {
+  padding: 1rem; }
+
+.hexagon {
+  background: black;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height: 50px;
+  width: 50px; }
 
 .dashboard-icon {
   font-size: 36px;
@@ -115,11 +154,24 @@ body {
           transform: translateY(-5px);
           background-image: linear-gradient(to right bottom, rgba(114, 119, 142, 0.5), rgba(14, 26, 47, 0.7)); }
 
+.vertical-separator {
+  transform: rotate(90deg);
+  border: 1px solid black;
+  opacity: .3; }
+
 .main-section {
   display: grid;
   grid-template-columns: 150px 150px 150px;
   grid-row-gap: 5rem;
   grid-column-gap: 8rem;
+  justify-content: center;
+  padding: 4rem 10rem; }
+
+.employment-resources-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-row-gap: 5rem;
+  grid-column-gap: 5rem;
   justify-content: center;
   padding: 4rem 10rem; }
 
