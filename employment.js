@@ -31,6 +31,7 @@ function createResourceCard(resource, i) {
     link = document.createElement('a');
     link.className = "employment-resource__link";
     link.href = resource.attributes.url;
+    link.target = '_blank'
     $('.employment-resources-grid').append(link);
 
     card = document.createElement('div');
