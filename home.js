@@ -20,7 +20,7 @@ function populateVclInfo() {
 }
 
 async function loadVCLInfo() {
-    await delay(500);
+    await delay(2000);
 
     var veteransCrisisLine = crisisResourcesArray[0].data[0];
     $('#vcl-phone').text(`Speak over the phone: ${veteransCrisisLine.attributes.phone}`);

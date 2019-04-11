@@ -17,7 +17,7 @@ function populateEmploymentResources() {
 }
 
 async function displayEmploymentResources() {
-    await delay(1500);
+    await delay(2500);
     resourcesCount = employmentResourceArray[0].data.length;
 
     for(var i = 0; i < resourcesCount; i++) {
