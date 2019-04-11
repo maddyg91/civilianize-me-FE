@@ -9,7 +9,7 @@ Deployed at: https://syntheticautomation.github.io/civilianize-me-FE/home.html
 The UX was designed specifically for military veterans. Visibility was tested in different screen exposures to sunlight to determine the optimal color pallate. The white text on the graphite buttons allows users to see the crisis button and all of their resources even when a screen is facing directly at the sun (though we would not recommend using the site this way). We believe this will be helpful in situations where users have vision impairment or are using the app outside. Though this feature might seem insignificant, there are many homeless veterans, so we feel that testing for outdoor use was a necessary design integration to this project.
 
 Other UX implementations:
--After surveying some veteran friends of ours, we got some good ideas about what to avoid and what to pursue with the design. We gathered that the general consensus was that the majority of government websites vets use have almost no front end design other than basic formatting and huge blocks of text. Veterans come out of the military and are expected to read hundreds of pages of online articles about how to apply, submit, and get access to various resources. We wanted to counter this by having a very simplified view that makes the resource finding process as short as humanly possible. We also gathered that there was a general overexposure to military images, such as the red/white/blue theme, unforms, vehicles, weapons, and more. Our design avoids this entirely to give the veteran mind a soothing break.
+-After surveying some veteran friends of ours, we got some good ideas about what to avoid and what to pursue with the design. We gathered that the general consensus was that the majority of government websites vets use have almost no front end design other than basic formatting and huge blocks of text. Veterans come out of the military and are expected to read hundreds of pages of online articles about how to apply, submit, and get access to various resources. We wanted to counter this by having a very simplified view that makes the resource finding process as short as humanly possible. We also gathered that there was a general overexposure to military images, such as the red/white/blue theme, unforms, vehicles, weapons, and more. Our design avoids this entirely to give the veteran mind a soothing break but still have that "security vault" feel.
 
 
 ## Setup
@@ -25,13 +25,17 @@ start up a new terminal and navigate to the same directory. run `npm run compile
 
 ## How to Use
 
-This app is built to provide veterans with industry-tested, data-driven resources and minimize the amount of time it takes to access them. Too often veterans come home from deployment and are given essentially an online encyclopedia of information to sift through online. Furthermore, there is a catastrophic homeless veteran population. Although it is on a snail-like decline, we can still facilitate a better quality of life for the people who have risked theirs.
+This app is built to provide veterans with industry-tested, data-driven resources and minimize the amount of time it takes to access them. Too often veterans come home from deployment and are given essentially an online encyclopedia of information to sift through online. Furthermore, there is a catastrophic amount of homeless veterans. Although it is on a snail-like decline, we can still facilitate a better quality of life for the people who have risked theirs for us.
 
 Veterans can currently use the crisis and employment resource pages. The other pages are non functional and will require further development. We created our own list of resources via research, speaking with the crisis line, and getting feedback from many veterans themselves. We gathered what worked for them, and what has worked over the phone for crisis counselors. The resources found on this page provide veterans with tremendously increased access to benefits.
 
 ## Future Iterations
 
 Many features are yet to be built or integrated to the app. Future iterations that we have considered:
+
+- The remainder of the buttons
+
+- Advanced front-end interaction and animations to make navigating the app a soothing experience without sacrificing efficiency of resource access.
 
 - Integration with the VA's proprietary OAuth called ConnectID, which would open up the ability to send medical documents and access healthcare information. In some cases, maybe in the near future, even schedule an appointment. This feature would tremendously cut down on visits to the VA which would improve the VA's ability to handle high volume, and save vets requiring transportation, bypassing a trip to the facility and waiting in line. 
 
