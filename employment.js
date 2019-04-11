@@ -17,7 +17,7 @@ function populateEmploymentResources() {
 }
 
 async function displayEmploymentResources() {
-    await delay(1500);
+    await delay(2500);
     resourcesCount = employmentResourceArray[0].data.length;
 
     for(var i = 0; i < resourcesCount; i++) {
@@ -31,6 +31,7 @@ function createResourceCard(resource, i) {
     link = document.createElement('a');
     link.className = "employment-resource__link";
     link.href = resource.attributes.url;
+    link.target = '_blank'
     $('.employment-resources-grid').append(link);
 
     card = document.createElement('div');
